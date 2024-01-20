@@ -6,7 +6,7 @@ const LoginPage = () => {
   return (
     <div className='wrapper'>
      <form action="">
-        <img src={credisynclogo} alt="logo" height={210} width={210} />   
+        <img id="logo" src={credisynclogo} alt="logo" height={96} width={374} />   
         <h1>Sign In</h1>
 
         <label>Email</label>

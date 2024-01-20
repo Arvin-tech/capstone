@@ -1,6 +1,9 @@
 .wrapper {
-    width: 420px;
+    width: 334px;
+    height: 433px;
     background-color: rgba(242, 233, 220, 0.7); /* Adjust the RGB values and alpha as needed */
+    text-align: center;
+    border-radius: 20px;
 }
 
 a{
@@ -9,3 +12,8 @@ a{
     font-family: 'Montserrat', sans-serif;
 }
   
+#logo{
+    border: 1px solid black;
+    margin-left: auto;
+    margin-right: auto;
+}
