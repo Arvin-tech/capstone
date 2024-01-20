@@ -1,0 +1,11 @@
+.wrapper {
+    width: 420px;
+    background-color: rgba(242, 233, 220, 0.7); /* Adjust the RGB values and alpha as needed */
+}
+
+a{
+    color: #A7A29D;
+    font-size: 11px;
+    font-family: 'Montserrat', sans-serif;
+}
+  
