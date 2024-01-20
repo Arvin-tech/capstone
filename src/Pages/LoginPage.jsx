@@ -6,8 +6,8 @@ const LoginPage = () => {
   return (
     <div className='wrapper'>
      <form action="">
-        <img id="logo" src={credisynclogo} alt="logo" height={96} width={374} />   
-        <h1>Sign In</h1>
+        <img id="logo" src={credisynclogo} alt="logo" />   
+        <h1>SIGN IN</h1>
 
         <label>Email</label>
         <div className='email-input'>
