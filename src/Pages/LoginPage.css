@@ -34,3 +34,8 @@ input{
 .email-input, .password-input{
     margin-top: 5%;
 }
+
+.email-input label {
+    display: block;
+    margin-bottom: 5px;
+  }

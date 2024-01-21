@@ -3,14 +3,17 @@ import credisynclogo from '../Images/credisynclogo.png';
 import './LoginPage.css'
 
 const LoginPage = () => {
+
+  
   return (
     <div className='wrapper'>
      <form action="">
         <img id="logo" src={credisynclogo} alt="logo" />   
         <h1>SIGN IN</h1>
 
-        <label>Email</label>
+       
         <div className='email-input'>
+            <label>Email</label>                                                                                                             
             <input type="text" placeholder='Enter your email' required/>
         </div>
 
