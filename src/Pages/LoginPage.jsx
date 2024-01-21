@@ -3,7 +3,6 @@ import credisynclogo from '../Images/credisynclogo.png';
 import './LoginPage.css'
 
 const LoginPage = () => {
-
   
   return (
     <div className='wrapper'>
@@ -13,23 +12,23 @@ const LoginPage = () => {
 
        
         <div className='email-input'>
-            <label>Email</label>                                                                                                             
-            <input type="text" placeholder='Enter your email' required/>
+          <label>Email</label>                                                                                                             
+          <input type="text" placeholder='Enter your email' required/>
         </div>
 
-        <label>Password</label>
         <div className='password-input'>
-            <input type="password" placeholder='Enter your password' required/>
+          <label>Password</label>
+          <input type="password" placeholder='Enter your password' required/>
         </div>
 
         <div className='forgot-link'>
             <a href='#'>Forgot your password?</a>
         </div>
         
-        <button type="submit">Sign In</button>
+        <button type="submit">SIGN IN</button>
 
         <div className='signup-link'>
-            <a href="#">Don't have an account? Sign up</a>
+            <p>Don't have an account? <a href="#">Sign up</a></p>
         </div>
      </form>
     </div>
